@@ -16,6 +16,7 @@ song_obj = Song(songs)
 
 
 @app.route('/')
+@app.route('/result')
 def serve_app():
     return render_template('index.html')
 
